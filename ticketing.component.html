@@ -1,0 +1,81 @@
+<h2 style="font-color:black">TICKETING
+
+<button class="btn"><i class="fa fa-home"></i>Create New Ticket</button></h2>
+
+
+
+<table >
+  <tr style="text-align:left" style="background-color:#aaabcc" >
+  <th colspan="7">Ticket Summary</th>
+  </tr>
+  
+  
+  <tr>
+  <th>
+  <input type="search" id="query" name="q" placeholder="Search...">
+  <button >Search</button>
+  </th>
+  <th>
+  <select name="types" id="types"  style="width:100%" >
+    <option value="" selected="selected" >All Ticket Types</option>
+  </select>
+  </th>
+  <th>
+  <select name="statuses" id="statuses"  style="width:100%" >
+    <option value="" selected="selected" >All Statuses</option>
+  </select>
+  </th>
+  <th>
+  <select name="types" id="types"  style="width:100%" >
+    <option value="" selected="selected" >All Created Dates</option>
+  </select>
+  </th>
+  </tr>
+  
+  
+  <tr style="background-color:#aaabcc">
+    <th>Ticket ID</th>
+    <th>Status</th>
+    <th>Ticket Type</th>
+    <th>Product</th>
+    <th>Service ID</th>
+    <th>Created</th>
+    <th>Updated</th>
+  </tr>
+  <tr *ngFor="let tickets of data.Tickets ;">
+    <td style="color:#0645AD">{{tickets.ticketId}}</td>
+    <td>{{tickets.status}}</td>    <!--two way data binding {{abc}}-->
+    <td>{{tickets.ticketType}}</td>
+    <td>{{tickets.product}}</td>
+    <td>{{tickets.serviceId}}</td>
+    <td>{{tickets.created}}</td>
+    <td>{{tickets.updated}}</td>
+  </tr>
+  
+  
+</table>
+<br>
+<table>
+<tr style="text-align:left" style="background-color:#aaabcc" >
+  <th colspan="7">Players List</th>
+  </tr>
+<tr style="background-color:#aaabcc">
+    <th>playerName</th>
+    <th>game</th>
+    <th>startYear</th>
+    <th>endYear</th>
+    <th>team</th>
+    <th>playerId</th>
+    
+  </tr>
+  <tr *ngFor="let players of data.player ;">
+    <td style="color:#0645AD">{{players.playerName}}</td>
+    <td>{{players.game}}</td>    <!--two way data binding {{abc}}-->
+    <td>{{players.startYear}}</td>
+    <td>{{players.endYear}}</td>
+    <td>{{players.team}}</td>
+    <td>{{players.playerId}}</td>
+    
+  </tr>
+  
+  </table>

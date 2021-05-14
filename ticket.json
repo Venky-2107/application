@@ -1,0 +1,115 @@
+{
+    "Tickets":[
+        {
+            "ticketId":"20110001",
+            "status":"cancelled",
+            "ticketType":"Repair",
+            "product":"IQ Private",
+            "serviceId":"DS1NT-12345677",
+            "created":"05/03/2021",
+            "updated":"06/03/2021"
+            
+
+            
+        },
+        {
+            "ticketId":"20110002",
+            "status":"cancelled",
+            "ticketType":"Repair",
+            "product":"IQ Private",
+            "serviceId":"DS1NT-12345677",
+            "created":"05/03/2021",
+            "updated":"06/03/2021"
+            
+            
+        }, 
+        {
+            "ticketId":"20110003",
+            "status":"reporting",
+            "ticketType":"Repair",
+            "product":"IQ Private",
+            "serviceId":"DS1NT-12345677",
+            "created":"05/03/2021",
+            "updated":"06/03/2021"
+            
+        },
+        {
+            "ticketId":"20110004",
+            "status":"reporting",
+            "ticketType":"RFO",
+            "product":"Portal",
+            "serviceId":"DS1NT-12345677",
+            "created":"05/03/2021",
+            "updated":"06/03/2021"
+            
+        },
+         {
+            "ticketId":"20110005",
+            "status":"cancelled",
+            "ticketType":"RFO",
+            "product":"Portal",
+            "serviceId":"DS1NT-12345677",
+            "created":"05/03/2021",
+            "updated":"06/03/2021"
+            
+        }
+    ],
+
+
+
+    "player":[
+        {
+            "playerName":"Sachin Tendulkar",
+            "game":"Cricket",
+            "startYear":"1994",
+            "endYear":"2015",
+            "team":"Indian Cricket team",
+            "playerId":"001"
+            
+            
+
+            
+        },
+        {
+            "playerName":"Virat Kholi",
+            "game":"Cricket",
+            "startYear":"2008",
+            "endYear":"Present",
+            "team":"Indian Cricket serviceId",
+            "playerId":"002"
+            
+            
+            
+        }, 
+        {
+            "playerName":"M.S Dhoni",
+            "game":"Cricket",
+            "startYear":"2006",
+            "endYear":"2020",
+            "team":"Indian Cricket serviceId",
+            "playerId":"003"
+        
+            
+        },
+        {
+            "playerName":"Federer",
+            "game":"Tenis",
+            "startYear":"2008",
+            "endYear":"Present",
+            "team":"Tennis-Singles",
+            "playerId":"004"
+            
+            
+        },
+         {
+            "playerName":"Nadal",
+            "game":"Tennis",
+            "startYear":"2010",
+            "endYear":"2020",
+            "team":"Tennis",
+            "playerId":"005"
+            
+            
+        }
+    ]
+}
